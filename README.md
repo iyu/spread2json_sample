@@ -7,20 +7,25 @@ Spread2Json Sample
 ### Source checkout
 ```
 $ git clone https://github.com/yuhei-a/spread2json_sample.git
+$ cd ./spread2json_sample
+$ npm install
 ```
 
 ### Generate API client key
 [Google API Console](https://console.developers.google.com/)
+  
 1. Create project
 2. Create new Client ID ([APIs & auth] > [Credentials] > [Create new Client ID])
+~~~
 APPLICATION TYPE: Web application
 AUTHORIZED JAVASCRIPT ORIGINS: http://localhost:3000
 AUTHORIZED REDIRECT URL: http://localhost:3000/oauth2callback
+~~~
 > TODO picture
 
 ### Edit opts.json
+YOUR CLIENT ID & CLIENT SECRET
 ```
-# YOUR CLIENT ID & CLIENT SECRET
 $ vi opts.json
 ```
 
