@@ -1,0 +1,9 @@
+{
+    "api": {
+        "client_id": "YOUR CLIENT ID",
+        "client_secret": "YOUR CLIENT SECRET",
+        "redirect_url": "http://localhost:3000/oauth2callback",
+        "token_path": "./dist/token.json"
+    },
+    "spreadsheets_path": "./dist/spreadsheets.json"
+}

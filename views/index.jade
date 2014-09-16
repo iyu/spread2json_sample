@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  #contents(ng-controller="ContentsCtrl")
+    button.btn.btn-lg.btn-primary(type="button", ng-click="openModal_addSpread()") Add spreadsheet
+
+    hr
+    label Spreadsheet List
+    table.table.table-bordered.table-striped
+      thead
+        tr
+          th
+          th id
+          th worksheet
+      tbody
+        tr(ng-repeat="spread in spreadList")
+          td
+            button.btn.btn-sm.btn-primary(type="button", ng-click="openModal_convert(spread)") Convert
+          td {{ spread.id }}
+          td
+            li(ng-repeat="worksheet in spread.worksheets") {{ worksheet.title }}
+
+    label Conversion result
+    pre {{ result | json }}

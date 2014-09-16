@@ -1,0 +1,17 @@
+div.modal(tabindex="-1", role="dialog", ng-controller="ConvertSpreadModalCtrl")
+  div.modal-dialog
+    div.modal-content
+      form(name="convert")
+        div.modal-header(ng-show="title")
+          button.close(type="button", ng-click="$hide()") &times;
+          h4.modal-title(ng-bind="title")
+        div.modal-body
+          p
+            label id:&nbsp;
+            input(type="text", ng-model="spread.id", readonly)
+          p
+            label sheets:&nbsp;
+            button.btn.btn-default(ng-model="selectSheets", data-multiple="1", data-animation="am-flip-x", ng-options="sheet.id as sheet.title for sheet in spread.worksheets", bs-select)
+        div.modal-footer
+          button.btn.btn-default(type="button", ng-click="$hide()") cancel
+          button.btn.btn-primary(type="button", ng-click="convertSpread()") convert

@@ -1,0 +1,21 @@
+{
+  "name": "spread2json_sample",
+  "version": "0.0.1",
+  "homepage": "https://github.com/yuhei-a/spread2json_sample",
+  "authors": [
+    "iYU <aihara_yuhei@cyberagent.co.jp>"
+  ],
+  "description": "spread2json sample",
+  "keywords": [
+    "spread2json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/bower_components"
+  ],
+  "dependencies": {
+    "angular-strap": "~2.0.5"
+  }
+}
