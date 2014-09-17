@@ -33,7 +33,7 @@ $ vi opts.json
 ```
 $ npm start
 
-> spread2json_sample@0.0.1 start /Users/aihara_yuhei/Documents/git/yuhei-a/spread2json_sample
+> spread2json_sample@0.0.1 start ~/Documents/git/yuhei-a/spread2json_sample
 > DEBUG=spread2json_sample node ./bin/www
 
  [INFO] [2014-09-16 13:54:43]  setup (../spread2json/lib/index.js:67)
