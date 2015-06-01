@@ -6,8 +6,8 @@
 'use strict';
 
 angular.module('spread2jsonApp', [
-    'ngAnimate',
-    'mgcrea.ngStrap',
+  'ngAnimate',
+  'mgcrea.ngStrap',
 
-    'spread2jsonApp.contents'
+  'spread2jsonApp.contents'
 ]);

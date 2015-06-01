@@ -1,9 +1,9 @@
 {
   "name": "spread2json_sample",
   "version": "0.0.1",
-  "homepage": "https://github.com/yuhei-a/spread2json_sample",
+  "homepage": "https://github.com/iyu/spread2json_sample",
   "authors": [
-    "iYU <aihara_yuhei@cyberagent.co.jp>"
+    "iYU <yu.e.yu.4119@gmail.com>"
   ],
   "description": "spread2json sample",
   "keywords": [
@@ -16,6 +16,10 @@
     "public/bower_components"
   ],
   "dependencies": {
-    "angular-strap": "~2.0.5"
+    "angular-strap": "~2.2.2",
+    "jquery": "~2.1.4",
+    "angular-animate": "~1.4.0",
+    "bootstrap": "~3.3.4",
+    "angular-motion": "~0.4.2"
   }
 }

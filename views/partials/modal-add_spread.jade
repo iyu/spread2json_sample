@@ -8,7 +8,7 @@ div.modal(tabindex="-1", role="dialog", ng-controller="AddSpreadModalCtrl")
         div.modal-body
           p
             label id:&nbsp;
-            input(type="text", ng-model="id", required)
+            button.btn.btn-default(ng-model="id", bs-options="sheet.id as sheet.title for sheet in spreadInfo", bs-select)
         div.modal-footer
           button.btn.btn-default(type="button", ng-click="$hide()") cancel
           button.btn.btn-primary(type="button", ng-click="addSpread()", ng-disabled="spread.$invalid") add

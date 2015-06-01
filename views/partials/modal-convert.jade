@@ -11,7 +11,8 @@ div.modal(tabindex="-1", role="dialog", ng-controller="ConvertSpreadModalCtrl")
             input(type="text", ng-model="spread.id", readonly)
           p
             label sheets:&nbsp;
-            button.btn.btn-default(ng-model="selectSheets", data-multiple="1", data-animation="am-flip-x", ng-options="sheet.id as sheet.title for sheet in spread.worksheets", bs-select)
+            button.btn.btn-default(ng-model="selectSheets", data-multiple="1", data-animation="am-flip-x", bs-options="sheet.id as sheet.title for sheet in spread.worksheets", bs-select)
+
         div.modal-footer
           button.btn.btn-default(type="button", ng-click="$hide()") cancel
           button.btn.btn-primary(type="button", ng-click="convertSpread()") convert

@@ -6,19 +6,21 @@
     "start": "DEBUG=spread2json_sample node ./bin/www"
   },
   "dependencies": {
-    "express": "~4.2.0",
-    "static-favicon": "~1.0.0",
-    "morgan": "~1.0.0",
-    "cookie-parser": "~1.0.1",
     "body-parser": "~1.0.0",
+    "bower": "^1.4.1",
+    "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
-    "jade": "~1.3.0"
+    "express": "~4.2.0",
+    "jade": "~1.3.0",
+    "morgan": "~1.0.0",
+    "spread2json": "^0.1.0",
+    "static-favicon": "~1.0.0"
   },
   "main": "app.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/yuhei-a/spread2json_sample.git"
+    "url": "git://github.com/iyu/spread2json_sample.git"
   },
   "keywords": [
     "spread2json"
@@ -26,7 +28,7 @@
   "author": "Yuhei Aihara",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuhei-a/spread2json_sample/issues"
+    "url": "https://github.com/iyu/spread2json_sample/issues"
   },
-  "homepage": "https://github.com/yuhei-a/spread2json_sample"
+  "homepage": "https://github.com/iyu/spread2json_sample"
 }
